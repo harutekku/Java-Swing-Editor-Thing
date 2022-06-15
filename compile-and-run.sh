@@ -2,8 +2,6 @@
 # Copyright: Harutekku
 # SPDX-License-Identifier: MIT
 
-if [ ! -d ./bin/ ]; then
-    mkdir ./bin
-fi
+[ ! -d ./bin/ ] && mkdir ./bin
 
 javac src/*.java -d bin/ && cd bin/ && java src.Main && cd ../
