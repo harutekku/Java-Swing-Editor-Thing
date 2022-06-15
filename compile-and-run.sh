@@ -2,7 +2,7 @@
 # Copyright: Harutekku
 # SPDX-License-Identifier: MIT
 
-if [ ! -e ./bin/ ]; then
+if [ ! -d ./bin/ ]; then
     mkdir ./bin
 fi
 
